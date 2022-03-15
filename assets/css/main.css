@@ -98,7 +98,6 @@
 /* logo */
 
 .search {
-    background-color: #fff;
     width: auto;
     height: 50px;
     margin: 1.2% auto;
@@ -107,4 +106,80 @@
 .search--logo {
     display: flex;
     margin-left: 8%;
+}
+
+
+/* 
+notification */
+
+.head__Notification {
+    display: flex;
+    position: relative;
+}
+
+.head__notify {
+    position: absolute;
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    top: 100%;
+    right: 11.5%;
+    margin-top: 10px;
+    opacity: 1;
+}
+
+.notification {
+    color: black;
+    font-weight: 300;
+    height: 40px;
+    width: auto;
+    background-color: white;
+    display: flex;
+    margin-top: 0;
+}
+
+.notification p {
+    margin: auto 10px;
+}
+
+.head__notify-header {}
+
+.head__notify-item {
+    margin: auto 10px;
+}
+
+.head__notify-item__conten {
+    color: black;
+}
+
+.head__notify-item {
+    display: flex;
+    height: 60px;
+    position: relative;
+}
+
+.head__notify-item__img {
+    width: 80px;
+    height: 60px;
+    margin-bottom: 0;
+}
+
+.head__notify-item__conten--top h4 {
+    font-weight: 300;
+    margin-top: 0;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+
+.head__notify-item__conten--button h6 {
+    font-weight: 200;
+    margin-left: 10px;
+    margin-bottom: 0;
+    margin-top: 0;
+    position: absolute;
+    bottom: 0;
+}
+
+.head__notify-item+.head__notify-item {
+    margin-top: 10px;
 }
