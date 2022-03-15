@@ -159,9 +159,9 @@ notification */
 }
 
 .head__notify-item__img {
-    width: 80px;
-    height: 60px;
+    width: 60px;
     margin-bottom: 0;
+    object-fit: cover;
 }
 
 .head__notify-item__conten--top h4 {
@@ -182,4 +182,8 @@ notification */
 
 .head__notify-item+.head__notify-item {
     margin-top: 10px;
+}
+
+.item__conten--top {
+    text-transform: uppercase;
 }
